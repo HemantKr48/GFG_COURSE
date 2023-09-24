@@ -1,0 +1,76 @@
+nav {
+	display: flex;
+	background-color: blue;
+	justify-content: space-between;
+}
+
+nav > ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav > ul > li {
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px;
+}
+
+.album_example p {
+	width: 30vw;
+	font-size: 20px;
+	text-align: center;
+	background-color: aquamarine;
+	border-radius: 2px;
+}
+
+.repeat_para {
+	font-size: 20px;
+	text-align: center;
+	background-color: aquamarine;
+	border-radius: 2px;
+}
+
+.album_example {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+	margin: 10%;
+	background-color: bisque;
+	border: 2px solid black;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	height: 10%;
+	width: 20%;
+	margin: 10px;
+	border: 2px solid crimson;
+}
+.main_card {
+	display: flex;
+	justify-content: center;
+	background-color: honeydew;
+}
+
+.card .card_button {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centred-content {
+	text-align: center;
+}
+
+.ftr {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
